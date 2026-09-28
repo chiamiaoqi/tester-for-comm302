@@ -1,0 +1,6 @@
+{
+  "name": "TradingView Markets",
+  "description": "Global financial markets overview covering major indices, US stocks, crypto, futures, and government bond yields with live data and charts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

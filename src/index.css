@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0049db;
+  --color-primary-container: #2962ff;
+  --color-on-primary: #ffffff;
+  --color-surface: #faf8ff;
+  --color-surface-bg: #ffffff;
+  --color-surface-subtle: #f0f3fa;
+  --color-surface-hover: #e0e3eb;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f3ff;
+  --color-surface-container: #eaedfd;
+  --color-surface-container-high: #e5e7f7;
+  --color-surface-container-highest: #dfe2f2;
+  --color-inverse-surface: #2c303c;
+  --color-inverse-on-surface: #eef0ff;
+  --color-on-surface: #171b26;
+  --color-on-surface-variant: #434656;
+  --color-text-primary: #131722;
+  --color-text-secondary: #6a6d78;
+  --color-text-tertiary: #8a8d98;
+  --color-market-up: #089981;
+  --color-market-down: #f23645;
+  --color-badge-crimson: #d32f2f;
+  --color-badge-cyan: #00a3e0;
+  --color-border-subtle: #e0e3eb;
+  --color-border-strong: #b2b5be;
+  --color-outline: #737687;
+  --color-outline-variant: #c3c5d8;
+
+  --spacing-space-2xs: 0.125rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 0.75rem;
+  --spacing-space-lg: 1rem;
+  --spacing-space-xl: 1.5rem;
+  --spacing-space-2xl: 2.5rem;
+  --spacing-margin: 1rem;
+  --spacing-margin-desktop: 2rem;
+  --spacing-gutter: 1rem;
+  --spacing-gutter-desktop: 1.5rem;
+
+  --font-data-mono: 'JetBrains Mono', monospace;
+  --font-headline-xl: 'Inter', sans-serif;
+  --font-headline-lg: 'Inter', sans-serif;
+  --font-headline-md: 'Inter', sans-serif;
+  --font-headline-sm: 'Inter', sans-serif;
+  --font-body-lg: 'Inter', sans-serif;
+  --font-body-md: 'Inter', sans-serif;
+  --font-body-sm: 'Inter', sans-serif;
+  --font-label-lg: 'Inter', sans-serif;
+  --font-label-md: 'Inter', sans-serif;
+  --font-label-sm: 'Inter', sans-serif;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabular-figures {
+  font-variant-numeric: tabular-nums;
+}
